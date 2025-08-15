@@ -1,0 +1,9 @@
+[type="email"]{
+    background-color: aqua;
+}
+input[type="text"]{
+    background-color: chartreuse;
+}
+[id="hello"]{
+    color: blue;
+}

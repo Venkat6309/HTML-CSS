@@ -1,0 +1,31 @@
+h1::first-letter{
+    color: orange;
+    font-size: 40px;
+}
+p::first-line{
+    background-color: green;
+    color: white;
+}
+
+h2::before{
+    content: "HAPPY ";
+    color:orange;
+}
+h2::after{
+    content: " DAY";
+    color: Green;
+}
+ul ::marker{
+    content: "❤️";
+}
+
+*::selection{
+    background-color:orange;
+    color:green;
+}
+input::placeholder{
+    color: dodgerblue;
+    background-color:black;
+    padding: 6px;
+
+}

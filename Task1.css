@@ -1,0 +1,27 @@
+ul>li{
+    background-color: red;
+}
+ul>li+li{
+    background-color: green;
+}
+ul>li+li+li{
+    background-color: white;
+}
+ul>li+li+li>ol>li{
+    background-color: Crimson;
+}
+ul>li+li+li>ol>li+li{
+    background-color:orange;
+}
+ul>li+li+li>ol>li+li+li{
+    background-color:green;
+}
+li>ol>li>ol>li{
+    color: red;
+}
+li>ol>li>ol>li+li{
+    color:green;
+}
+li>ol>li>ol>li+li+br+li{
+    color:black;
+}

@@ -1,0 +1,48 @@
+
+/* id tag */
+
+#d1{
+    background-color: aqua;
+}
+
+/* class tag */
+
+.d2{
+    background-color: blueviolet;
+}
+/* class tag */
+.d4{
+    background-color: greenyellow;
+    border: 2px solid red;
+}
+/* tag/ element tag */
+section{
+    background-color: rgb(223, 87, 8);
+}
+aside{
+    background-color: rgb(137, 216, 216);
+}
+footer{
+    background-color: chartreuse;
+}
+
+/* grouping tags */
+
+h4,.f1,#f3{
+    background-color: darkorchid;
+}
+
+/* universal tags  */
+*{
+    background-color: aquamarine;
+}
+
+body{
+    background-color: blue;
+}
+
+.con{
+    background-color: brown;
+    border: 2px solid;
+}
+
