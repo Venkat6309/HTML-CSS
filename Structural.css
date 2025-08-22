@@ -1,0 +1,38 @@
+
+/* First-of-type */
+div>h1:first-of-type{
+    background-color: aqua;
+}
+div>h3:first-of-type{
+    background-color: green;
+}
+/* last-of-type */
+div>h2:last-of-type{
+    background-color:blue;
+}
+div>h3:last-of-type{
+    background-color: blueviolet;
+}
+/* nth of type(positive number) */
+div>h1:nth-of-type(3){
+    background-color:dodgerblue ;
+}
+div>h2:nth-of-type(2){
+    background-color:hotpink;
+}
+/* first child */
+div>h2:first-child{
+    background-color:crimson;
+}
+div>h1:last-child{
+    background-color: darkmagenta;
+}
+/* nth of child(natural numbers ,Even , Odd) */
+
+div>h2:nth-child(2){
+    background-color: bisque;
+}
+div>h1:nth-child(odd){
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,40 @@
+a:link{
+    color: aqua;
+}
+a:active{
+    color:chartreuse;
+}
+a:visited{
+    color:hotpink;
+}
+#inp1:checked{
+    /* background-color: red;    not working
+    color: aquamarine; */
+    accent-color:Green;
+    height: 50px;
+    width: 50px;
+}
+#inp2:checked{
+    accent-color:blue;
+    height: 50px;
+    width: 50px;
+}
+#inp3:focus{
+    background-color: aqua;
+    color: black;
+
+}
+p:hover{
+    background-color: blue;
+    color:white
+}
+div{
+    border: 2px solid;
+    height:100px;
+    width:100px;
+
+}
+div:hover{
+    background-color: aqua;
+    border-radius:20px;
+}
